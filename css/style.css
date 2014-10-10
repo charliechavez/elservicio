@@ -1,0 +1,158 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/escom.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 90%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+}
+
+#paso1{
+  background-color: #6d9f30;
+  color: #ffffff;
+}
+
+#paso2{
+  background: url(../images/notebook-paper.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 35%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#paso3{
+  background-color: #c57a3d;
+  color: #ffffff;
+}
+
+#paso4{
+  background-color: #d1cc64;
+  color: #000000;
+}
+
+#paso5{
+  color: #000000;
+  background: url(../images/cenac.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 35%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#paso6{
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+#paso7{
+  color: #000000;
+  background: url(../images/escom2.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 35%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#paso8{
+  background-color: #c53d45;
+  color: #ffffff;
+}
+
+#paso9{
+  background-color: #64d1af;
+  color: #000000;
+}
+
+#folder{
+  background-color: #faf5da;
+  color: #000000;
+}
+
+#paso10{
+  background-color: #b3367a;
+  color: #ffffff;
+}
+
+#paso1 .glyphicon, #paso3 .glyphicon, #paso6 .glyphicon, #paso8 .glyphicon {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 60px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+}
+
+#folder #hola, #folder .glyphicon{
+  color: #000000;
+  display: inline-block;
+  font-size: 60px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+}
+
+#dudas {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
